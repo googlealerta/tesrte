@@ -1,0 +1,802 @@
+<html lang="en"><head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/box.css">
+  <link rel="stylesheet" href="styles/font-style.css">
+  <link rel="stylesheet" href="styles/footer.css"> 
+  <link rel="stylesheet" href="styles/btn.css">   
+  <link rel="shortcut icon" href="assets/icon.ico">
+  <link rel="shortcut icon" href="assets/icon.png">
+  <title>Amazon.com.br : Ofertas do dia</title>
+
+</head>
+<body>
+
+<!--Navbar-->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div id="wrapper" class="navbar">
+            <div class="burger-icon"><a href="loading.html"><img src="assets/body/drop-icon.png"></a></div>
+            <div class="amazon-logo"><a href="index.html"><img src="assets/body/amazon.png"></a></div>
+            <div class="amazon-login"><a href="loginAccount.html"><img src="assets/body/man.png"></a></div>
+            <div class="amazon-cart"><a href="loginAccount.html"><img src="assets/body/amazon-cart.png"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="navbar">
+            <input type="text" class="search-bar" placeholder="Pesquisa Amazon.com.br" data-aria-clear-label="Limpar palavras-chave da pesquisa" name="k" autocomplete="off" autocorrect="off" autocapitalize="off" dir="auto" value="" id="nav-search-keywords">
+            <div class="search">
+              <a href="all.html"><button class="search-btn">
+                <img src="assets/body/search.png">
+              </button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="navbar">
+            <div class="wrapper">
+              <div class="wrapper-item"><a href="loading.html"><h1 class="md">Livros</h1></a></div>
+              <div class="wrapper-item"><a href="loading.html"><h1 class="md">Amazon Prime</h1></a></div>
+              <div class="wrapper-item"><a href="loading.html"><h1 class="md">Mais vendidos</h1></a></div>
+              <div class="wrapper-item"><a href="loading.html"><h1 class="md">Eletrônicos</h1></a></div>
+              <div class="wrapper-item"><a href="loading.html"><h1 class="md">Casa</h1></a></div>
+              <div class="wrapper-item"><a href="loading.html"><h1 class="md">Lançamento</h1></a></div>
+              <div class="wrapper-item"><a href="loading.html"><h1 class="md">Comprar novamente</h1></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <a href="localdeenvio.html"><div class="navbar-b x-1">
+            <div class="delivery"><img src="assets/body/send-to.png"></div>
+            <div class="send-to"><h1 class="sm">Enviar para Brasil</h1></div>
+          </div></a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--IMGs-Top-->
+  <section style="margin-bottom: -128px;">
+    <div class="container-fluid">
+      <div class="row" style="margin-top: -1px;">
+        <div class="col-12">
+          <div class="mySlides" style="display: none;">
+            <img src="assets/background/background-a.jpg" style="width:100%">
+            <div class="gradient-a"></div>
+          </div>
+          <div class="mySlides" style="display: none;">
+            <img src="assets/background/background-c.jpg" style="width:100%">
+            <div class="gradient-c"></div>
+          </div>
+          <div class="mySlides" style="display: none;">
+            <img src="assets/background/background-d.jpg" style="width:100%">
+            <div class="gradient-d"></div>
+          </div>
+          <div class="mySlides" style="display: block;">
+            <img src="assets/background/background-e.jpg" style="width:100%">
+            <div class="gradient-e"></div>
+          </div>
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 6000); // Change image every 5 seconds
+          }
+          </script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="down">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="container-fluid">
+            <div class="row box-a">
+              <div class="wrapper">
+                <div class="box00">
+                  <div class="box-b">
+                    <div class="col-12">
+                      <h4 class="lg grossa">Bem vindo(a)</h4>
+                    </div>
+                    <div class="col-12">
+                      <h2 class="sm fina">Acesse uma conta para ter a melhor experiência</h2>
+                    </div>
+                    <div class="col-12" style="margin-top: 32px;">
+                      <a href="loginAccount.html" class="login-bnt-a">Faça seu login</a>
+                    </div>
+                    <div class="col-12" style="margin-top: 8px;">
+                      <a href="createAccount.html" style="text-align: center;"><h2 class="sm fina">Criar conta</h2></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box00">
+                  <a href=""><img class="w2" src="assets/mobile/1.jpg"></a>
+                </div>
+                
+                <div class="box00">
+                  <a href=""></a><a href="alexa.html"><img class="w2" src="assets/mobile/3.jpg"></a>
+                </div>
+                <div class="box00">
+                  <a href="kindle.html"><img class="w2" src="assets/mobile/4.jpg"></a>
+                </div>
+                
+                <div class="box00">
+                  <a href="all.html"><img class="w2" src="assets/mobile/6.jpg"></a>
+                </div>
+                
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<!--BOX-SESSION-->
+  <section class="up">
+    <div class="container-fluid">
+      <div class="row">
+        <!--BOX1-->
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="boxx">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="lg">Oferta do dia</h3>
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-12">
+                  <a href="iphone12gold.html"><img class="imgs-box-one" src="assets/first-session/bloco-d/phone1.jpg"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--BOX2-->
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="boxx">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="lg">Confira Dispositivos Amazon</h3>
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-6">
+                  <a href="alexa.html"><img class="imgs-box-one" src="assets/products/quatro-a/1.jpg"><span class="a-size-small a-color-base aok-align-center aok-inline-block">Echo da 3 gereção</span></a>
+                  
+                </div>
+                <div class="col-6">
+                  <a href="alexa-echo.html"><img class="imgs-box-one" src="assets/products/quatro-a/Echo_02_186x116_roxo_01-_SY116_CB418709824_.jpg">
+<span class="a-size-small a-color-base aok-align-center aok-inline-block">Echo</span></a>
+                  
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-6">
+                  <a href="fire-tv.html"><img class="imgs-box-one" src="assets/products/quatro-a/FTV_186x116_roxo_01-_SY116_CB418709824_.jpg">
+<span class="a-size-small a-color-base aok-align-center aok-inline-block">Fire TV Stick Lite</span></a>
+                  
+                </div>
+                <div class="col-6 justify-content-center">
+                  <a href="kindle.html"><img class="imgs-box-one" src="assets/products/quatro-a/jaeger_186x116_10G-_SY116_CB670799218_.jpg">
+
+<span class="a-size-small a-color-base aok-align-center aok-inline-block">Kindle 10ª geração</span></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--BOX3-->
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="boxx">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="lg">Consoles e jogos</h3>
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-12">
+                  <a href="ps4.html"><img class="imgs-box-one" src="assets/first-session/bloco-d/w1-3.jpg"></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--BOX4-->
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="boxx" style="
+    height: auto;
+">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="lg">Frete GRÁTIS no seu primeiro pedido</h3>
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-12">
+                  <img class="imgs-box-one" src="assets/first-session/bloco-d/free-frete.jpg">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--products-row-a-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="up">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="container-fluid">
+            <div class="row boxx" style="/* height: auto; */padding-top: 58px;">
+              <div class="wrapper">
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Bem-vindo(a) à Amazon" class="img-box00" src="assets/row-1/0.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/1.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/2.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/3.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/4.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/5.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/6.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/7.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/8.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/9.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/10.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/11.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-1/12.jpg">
+                  </div>
+                </div>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="up">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="container-fluid">
+            <div class="row boxx" style="/* height: auto; */padding-top: 38px;">
+              <div class="col-12">
+                
+              </div>
+              <div class="wrapper">
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="alexa.html"><img alt="Bem-vindo(a) à Amazon" class="img-box00" src="assets/row-e/1.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="fire-tv.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/2.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/3.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="alexa-echo.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/4.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/5.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="kindle.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/6.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="kindle.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/7.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="kindle.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/8.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="alexa-echo.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/9.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/10.jpg">
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="alexa-echo.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/11.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="fire-tv.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/12.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="alexa-echo.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/row-e/13.jpg"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="up" style="
+    margin-bottom: 64px;
+">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="container-fluid">
+            <div class="row boxx">
+              <div class="col-12">
+                <h4 class="lg" style="
+    margin-bottom: 18px;
+">
+                    Clientes que visualizaram este item também visualizaram
+                </h4>
+              </div>
+              <div class="wrapper">
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="poco2.html"><img alt="Bem-vindo(a) à Amazon" class="img-box00" src="assets/products/products-row-a/1.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    <a href="poco1.html"><img alt="Rastreie seu pacote" class="img-box00" src="assets/products/products-row-a/2.jpg"></a>
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                
+                <div class="box00">
+                  
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                <div class="box00">
+                  <div class="col-12">
+                    
+                  </div>
+                </div>
+                
+                
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div></section>
+
+
+
+  <section class="up">
+    <div class="container-fluid">
+      <div class="row" style="
+    /* margin-top: 15px; */
+">
+        <!--BOX1-->
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="boxx">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="lg">Termina em:</h3>
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-12">
+                  <a href="iphone11.html"><img class="imgs-box-one" src="assets/products/iPhone11ProPhotos/cell1.jpg" style="
+    width: -webkit-fill-available;
+    margin-top: 18px;
+"></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--BOX2-->
+      <div class="col-lg-3 col-md-4 col-sm-12">
+        <div class="boxx">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="lg">Termina em:</h3>
+              </div>
+            </div>
+            <div class="row c m-box-row">
+              <div class="col-12">
+                <a href="poco2.html"><img class="imgs-box-one" src="assets/products/poco2/1.jpg" style="
+  padding: 15px;
+"></a>
+                <h4 class="sm-sm">Amazon super ofertas</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--BOX3-->
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="boxx">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="lg">Termina em:</h3>
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-12">
+                  <a href="iphoneBlack.html"><img class="imgs-box-one" src="assets/first-session/bloco-d/link-iphone-black.jpg" style="
+    margin-bottom: 18px;
+    margin-top: 28px;
+"></a>
+                  <h4 class="sm-sm">Amazon super ofertas</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--BOX4-->
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="boxx">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="lg">Termina em:</h3>
+                </div>
+              </div>
+              <div class="row c m-box-row">
+                <div class="col-12">
+                  <a href="iphone12blue.html"><img class="imgs-box-one" src="assets/products/NovoAppleiPhone12(128GBAzul)/phone0.jpg" style="
+    width: 100%;
+    padding: 30px;
+"></a>
+                  <h4 class="sm-sm">prime day</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+
+
+
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <img src="assets/first-session/01222433_UAT-BR_CSN_1940_500 - Copy.jpg" style="width: auto;width: 100%;padding: 15px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--footer-->
+  <section>
+    <div class="container-fluid justify-content-center">
+      <div class="row">
+        <div class="col-12">
+          <div class="boxb">
+            <div class="row justify-content-center">
+              <h4 class="sm">Veja recomendações personalizadas</h4>
+            </div>
+            <div class="row justify-content-center">
+              <a href="loginAccount.html" class="login-bnt-a">Faça seu login</a>
+            </div>
+            <div class="row justify-content-center" style="margin: 5px;">
+              <h4 class="sm">Cliente novo? </h4><a href="createAccount.html" class="aqui"><h4 class="sm" style="margin-left: 3px;"> Começe aqui</h4></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="navbar-b">
+            <a href="#top"><div class="return-top">
+              <div class="container-fluid" style="
+    padding: 10px;
+">
+                <div class="row justify-content-center">
+                  <div>
+                    <img src="assets/body/up.png">
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="c">
+                    <h1 class="sm-sm">VOLTAR AO TOPO DA PÁGINA</h1>
+                  </div>
+                </div>
+              </div>
+            </div></a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="navbar">
+            <div class="col-6 p">
+              <h1 class="md">Início</h1>
+            </div>
+            <div class="col-6 p">
+              <h1 class="md">Sua Amazon</h1>
+            </div>
+          </div>
+          <div class="navbar">
+            <div class="col-6 p">
+              <h1 class="md">Seus pedidos</h1>
+            </div>
+            <div class="col-6 p">
+              <h1 class="md">Seus produtos do programe e poupe</h1>
+            </div>
+          </div>
+          <div class="navbar">
+            <div class="col-6 p">
+              <h1 class="md">Suas listas</h1>
+            </div>
+            <div class="col-6 p">
+              <h1 class="md">Encontre uma lista de desejos ou registros</h1>
+            </div>
+          </div>
+          <div class="navbar">
+            <div class="col-6 p">
+              <h1 class="md">Sua conta</h1>
+            </div>
+            <div class="col-6 p">
+              <h1 class="md">Seus itens vistos recentemente</h1>
+            </div>
+          </div>
+          <div class="navbar">
+            <div class="col-6 p">
+              <h1 class="md">Devoluções</h1>
+            </div>
+            <div class="col-6 p">
+              <h1 class="md">Configurações de 1-click</h1>
+            </div>
+          </div>
+          <div class="navbar">
+            <div class="col-6 p">
+              <h1 class="md">Atendimento ao cliente</h1>
+            </div>
+            <div class="col-6 p">
+              <h1 class="md">Venda na Amazon</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="container-fluid"><a href="loginAccount.html">                
+            <div class="row">
+              <div class="col-12 navbar-c">
+                <h1 class="md p c">Já é cliente?</h1>
+              </div>
+            </div></a>
+            <div class="row">
+              <div class="col-4 navbar-c">
+                <h2 class="sm-sm p c">Cookies</h2>
+                <h2 class="sm-sm p c">Condições de uso</h2>
+              </div>
+              <div class="col-4 navbar-c">
+                <h2 class="sm-sm p c">Condições de uso</h2>
+              </div>
+              <div class="col-4 navbar-c">
+                <h2 class="sm-sm p c">Aviso de privacidade</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col navbar-c">
+                <h2 class="sm-sm p c">© 1996-2021, Amazon.com, Inc. ou suas afiliadas</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body></html>
